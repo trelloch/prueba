@@ -1,0 +1,55 @@
+html { font-family:arial; }
+body { margin:0px; }
+#datos
+{
+	text-align:center; width:100%;
+	background:linear-gradient(to bottom, #A4A4A4, #0B615E);
+	color:#FFF; 
+}
+#tablaEquipos
+{
+	width:100%; background:#BDBDBD; border-spacing:1px;
+}
+#tablaEquipos td
+{
+	font-size:14pt; 
+	text-align:center; padding:10px;
+}
+#tablaJugadores
+{
+	width:100%; background:#CCC; border-spacing:1px;
+}
+#tablaJugadores td
+{
+	font-size:14pt; 
+	text-align:center; padding:10px;
+}
+.encabezado
+{
+	background:linear-gradient(to bottom, #A4A4A4, #0B615E);
+	color:#FFF; 
+}
+.renglon, .renglonalterno {	color:#555; cursor:pointe; }
+.renglon { background:#FFF; }
+.renglonalterno { background:#EEE; }
+.renglonseleccionado
+{
+	cursor:pointer;
+	background:#5CADFF; color:#FFF; 
+}
+.boton, .botonseleccionado
+{
+	cursor: pointer; font-size:12pt;
+	margin:0px; padding:10px;
+	border:0px; border-right:1px solid #BBB; 
+}
+.boton
+{
+	color:#555;
+	background:linear-gradient(to bottom, #EEE, #CCC);  
+}
+.botonseleccionado
+{
+	color:#FFF;
+	background:linear-gradient(to bottom, #830404, #A6360A);  
+}

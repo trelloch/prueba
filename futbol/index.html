@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Futbol</title>
+		<script src="js/funciones.js"></script>
+		<script src="js/clases.js"></script>
+		<link href="estilos/estilo.css" rel="stylesheet"></link>
+	</head>
+	<body onLoad="cargarConferencias(); ocultarBoton()">
+	<div id="datos">Futbol</div>
+		<div id="datos"><button id="regresarEquipos" onclick="verEquipos(); "> </button></div>
+		<div id="datos">
+		<select id="selConf" name="selConf" onchange="cargarEquipos(this.value); borrarJugadores();">
+					<option value="0"></option>
+		</select>
+			<table border="0px" id="tablaEquipos">
+				<tr class="encabezado"><td>Logo</td><td>Id</td><td>Nombre</td></tr>
+			</table>
+			<table border="0px" id="tablaJugadores">
+				<tr class="encabezado"><td>Id</td><td>Nombre</td><td>Numero</td><td>IdEquipo</td>
+			</table>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,29 @@
+* { font-family:arial; }
+body { background:#60C39A; }
+button { position:relative; float:center; width:80%; height:80px;	margin:10px 10% 10px 10%; font-weight:bold; color:#FFF;	border:2px solid #FFF; border-radius:10px; cursor:pointer; }
+.boton { font-size:14pt; box-shadow:0px 0px 20px #333; }
+.botonover { font-size:20pt; box-shadow:0px 0px 20px #DDD; }
+
+.voto{ position:relative; float:left; width:18%; margin:10px 1% 10px 1%;  border-radius:10px; box-shadow:0px 0px 20px #333; } 
+.encabezado, .votos { float:left; width:100%; text-align:center; padding:10px 0px 10px 0px; margin:0px; }
+.encabezado { font-size:14pt; color:#FFF; border-radius:10px 10px 0px 0px; }
+.votos { font-size:48pt; background:#222; border-radius:0px 0px 10px 10px; }
+
+
+#graficaBarra, #graficaBarra2 { position:relative; float:left; background:#122; height:400px; margin:20px 1% auto 0; border-radius:10px; box-shadow:0px 0px 20px #333;}
+#graficaBarra { width:80%; }
+#graficaBarra2 { width:28%; }
+#svgBarra, #svgBarra2 { position:relative; float:center; width:100%; height:500px;}
+
+@media only screen and (max-width:768px)
+{
+	#graficaBarra , #graficaPie { width:98%; }
+}
+
+@media only screen and (max-width:640px)
+{
+	.voto { width:98%; }
+	.encabezado { height:57px; width:50%; padding:33px 0px 0px 0px; border-radius:10px 0px 0px 10px;  }
+	.votos { height:70px; width:50%; border-radius:0px 10px 10px 0px; }
+}
+
